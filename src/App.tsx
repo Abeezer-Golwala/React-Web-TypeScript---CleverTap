@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import clevertap from 'clevertap-web-sdk';
+clevertap.init('468-W87-546Z') 
+clevertap.setLogLevel(3)
 function App() {
   return (
     <div className="App">
